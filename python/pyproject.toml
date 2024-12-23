@@ -80,6 +80,9 @@ disable = [
     "use-list-literal",
     # isort handles import sorting.
     "wrong-import-order",
+    ##### leetcode-specific things
+    # basic Exception is good enough for leetcode.
+    "broad-exception-raised",
 ]
 # extra rules that aren't enabled by default.
 enable = [
